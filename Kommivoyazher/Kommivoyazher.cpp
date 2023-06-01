@@ -3,7 +3,7 @@
 #include <vector>
 #include <cmath>
 #include <algorithm>
-#include <GL/freeglut.h>
+#include <GL/glut.h>
 #include <string>
 
 using namespace std;
@@ -11,8 +11,8 @@ using namespace std;
 class Graph
 {
 private:
-    std::vector<std::vector<int>> matrix;
-    std::vector<int> bestPath;
+    vector<vector<int>> matrix;
+    vector<int> bestPath;
     int bestCost = numeric_limits<int>::max();
 
 public:
@@ -23,7 +23,7 @@ public:
 
     int getNumVertices() { return matrix.size(); };
 
-    void setBestPath(const std::vector<int>& path) { bestPath = path; }
+    void setBestPath(const vector<int>& path) { bestPath = path; }
 
     void setBestCost(int cost) { bestCost = cost; }
 
@@ -48,7 +48,7 @@ public:
             matrix[i].push_back(0);
         }
 
-        std::vector<int> newRow(numVertices + 1, 0);
+        vector<int> newRow(numVertices + 1, 0);
         matrix.push_back(newRow);
     }
 
@@ -177,7 +177,7 @@ void reshape(int width, int height)
 
 void printGraph()
 {
-    cout << "Мартица смежности" << endl;
+    cout << "Матрица смежности" << endl;
     for (int i = 0; i < graph.getNumVertices(); i++)
     {
         for (int j = 0; j < graph.getNumVertices(); j++)
@@ -186,6 +186,7 @@ void printGraph()
         }
         cout << endl;
     }
+    cout << endl << endl;
 }
 
 void createGraph()
