@@ -26,7 +26,7 @@
 
 Исходный код:
 
-Clients.h
+### Clients.h
 
 #ifndef CLIENTS\_H
 
@@ -100,7 +100,7 @@ Clients.h
 
 #endif *//* *CLIENTS\_H*
 
-Endshift.h
+### Endshift.h
 
 #ifndef ENDSHIFT\_H
 
@@ -167,7 +167,7 @@ Endshift.h
 #endif *//* *ENDSHIFT\_H*
 
 
-History.h
+### History.h
 
 #ifndef HISTORY\_H
 
@@ -215,7 +215,7 @@ History.h
 
 #endif *//* *HISTORY\_H*
 
-Mainwindow.h
+### Mainwindow.h
 
 #ifndef MAINWINDOW\_H
 
@@ -323,7 +323,7 @@ QT\_END\_NAMESPACE
 
 #endif *//* *MAINWINDOW\_H*
 
-Newclient.h
+### Newclient.h
 
 #ifndef NEWCLIENT\_H
 
@@ -373,7 +373,7 @@ Newclient.h
 
 #endif *//* *NEWCLIENT\_H*
 
-Newitem.h
+### Newitem.h
 
 #ifndef NEWITEM\_H
 
@@ -425,7 +425,7 @@ Newitem.h
 
 #endif *//* *NEWITEM\_H*
 
-Payment.h
+### Payment.h
 
 #ifndef PAYMENT\_H
 
@@ -519,7 +519,7 @@ Payment.h
 
 #endif *//* *PAYMENT\_H*
 
-Paymentdone.h
+### Paymentdone.h
 
 #ifndef PAYMENTDONE\_H
 
@@ -573,7 +573,7 @@ Paymentdone.h
 
 #endif *//* *PAYMENTDONE\_H*
 
-Shift.h
+### Shift.h
 
 #ifndef SHIFT\_H
 
@@ -611,7 +611,7 @@ Shift.h
 
 #endif *//* *SHIFT\_H*
 
-Clients.cpp
+### Clients.cpp
 
 #include "clients.h"
 
@@ -796,7 +796,7 @@ void Clients::**on\_acceptBtn\_clicked**()
 
 }
 
-Endshift.cpp
+### Endshift.cpp
 
 #include "endshift.h"
 
@@ -889,7 +889,7 @@ void EndShift::**on\_closeBtn\_clicked**()
 
 }
 
-History.cpp
+### History.cpp
 
 #include "history.h"
 
@@ -953,7 +953,7 @@ History::~***History***()
 
 }
 
-Main.cpp
+### Main.cpp
 
 #include "mainwindow.h"
 
@@ -973,7 +973,7 @@ int main(int argc, char \*argv[])
 
 }
 
-Mainwindow.cpp
+### Mainwindow.cpp
 
 #include "mainwindow.h"
 
@@ -1477,7 +1477,7 @@ void MainWindow::**on\_shift\_triggered**()
 
 }
 
-Newclient.cpp
+### Newclient.cpp
 
 #include "newclient.h"
 
@@ -1535,7 +1535,7 @@ void newClient::**on\_addBtn\_clicked**()
 
 }
 
-Newitem.cpp
+### Newitem.cpp
 
 #include "newitem.h"
 
@@ -1589,7 +1589,7 @@ void newItem::on\_addBtn\_clicked()
 
 }
 
-Payment.cpp
+### Payment.cpp
 
 #include "payment.h"
 
@@ -1904,7 +1904,7 @@ void Payment::**on\_usePts\_clicked**()
 
 }
 
-Paymentdone.cpp
+### Paymentdone.cpp
 
 #include "paymentdone.h"
 
@@ -1968,7 +1968,7 @@ void PaymentDone::on\_newSell\_clicked()
 
 }
 
-Shift.cpp
+### Shift.cpp
 
 #include "shift.h"
 
@@ -2005,6 +2005,3 @@ void Shift::**on\_startShift\_clicked**()
 `    `close();
 
 }
-
-24
-
