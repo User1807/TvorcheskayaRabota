@@ -1,4 +1,4 @@
-#Видео: https://www.youtube.com/watch?v=LDE51ldkoZc
+# Видео: https://www.youtube.com/watch?v=LDE51ldkoZc
 
 
 ## Постановка задачи
