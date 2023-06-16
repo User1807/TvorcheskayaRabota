@@ -22,3 +22,8 @@ UML-диаграммы с разъяснением реализованных к
 ссылки на используемые источники.
 
 ![](Aspose.Words.70a020c0-2b7d-4e80-9cca-03c9a3d0f4eb.001.png)
+![](Aspose.Words.70a020c0-2b7d-4e80-9cca-03c9a3d0f4eb.002.png)
+![](Aspose.Words.70a020c0-2b7d-4e80-9cca-03c9a3d0f4eb.003.png)
+![](Aspose.Words.70a020c0-2b7d-4e80-9cca-03c9a3d0f4eb.004.png)
+![](Aspose.Words.70a020c0-2b7d-4e80-9cca-03c9a3d0f4eb.005.png)
+![](Aspose.Words.70a020c0-2b7d-4e80-9cca-03c9a3d0f4eb.006.png)
